@@ -10,10 +10,16 @@
   "dependencies": {
     "grunt": "~0.4.1",
     "grunt-ngmin": "~0.0.2",
-    "lineman": ">=0.11.1"
+    "lineman": ">=0.11.1",
+    "snyk": "^1.190.0"
   },
   "engines": {
     "node": "~>0.10.5",
     "npm": "~>1.2.18"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
