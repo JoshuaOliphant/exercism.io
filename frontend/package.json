@@ -8,7 +8,7 @@
     "company": "ACME, Inc."
   },
   "dependencies": {
-    "grunt": "~0.4.1",
+    "grunt": "~1.0.3",
     "grunt-ngmin": "~0.0.2",
     "lineman": ">=0.11.1"
   },
