@@ -2,10 +2,10 @@ source "https://rubygems.org"
 
 ruby "2.1.1"
 
-gem 'activesupport', '~> 4.1.4'
-gem 'activerecord', '~> 4.1.4'
+gem 'activesupport', '~> 4.2.8'
+gem 'activerecord', '~> 4.2.8'
 
-gem 'bugsnag'
+gem 'bugsnag', '>= 2.4.1'
 gem 'faraday'
 gem 'haml', require: false
 gem 'loofah'
@@ -22,7 +22,7 @@ gem 'rake'
 gem 'redcarpet', '~> 3.1'
 gem 'rouge', '~> 1.3'
 gem 'sinatra', '~> 1.4.4', require: 'sinatra/base'
-gem 'sidekiq'
+gem 'sidekiq', '>= 3.2.5'
 gem 'will_paginate'
 gem 'will_paginate-bootstrap'
 
